@@ -1,14 +1,24 @@
 var data = [
-    {
+    { 
       x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 
           27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
       y: [620, 612, 515, 442, 379, 330, 311, 233, 223, 155, 142, 129, 88, 88, 67, 42, 41, 35, 41, 25, 22,   
           19, 11, 8, 8, 7, 4, 0, 2, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'First Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number1', data);
+Plotly.newPlot('number1', data, layout);
 
 var data = [
     {
@@ -18,9 +28,19 @@ var data = [
           117, 106, 84, 83, 72, 52, 37, 46, 29, 24, 15, 12, 9, 6, 8, 5, 2, 5, 1, 0, 2, 0, 0, 0, 0],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Second Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number2', data);
+Plotly.newPlot('number2', data, layout);
 
 var data = [
     {
@@ -30,9 +50,19 @@ var data = [
           199, 151, 187, 146, 125, 122, 115, 93, 91, 75, 55, 48, 42, 39, 26, 28, 18, 2, 4, 3, 3, 0, 0, 0],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Third Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number3', data);
+Plotly.newPlot('number3', data, layout);
 
 var data = [
     {
@@ -42,9 +72,19 @@ var data = [
           209, 215, 198, 189, 214, 179, 199, 152, 168, 153, 134, 124, 105, 81, 75, 60, 46, 32, 21, 10, 11, 4, 1],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Fourth Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number4', data);
+Plotly.newPlot('number4', data, layout);
 
 var data = [
     {
@@ -54,9 +94,19 @@ var data = [
           180, 189, 188, 202, 220, 239, 203, 228, 213, 211, 214, 186, 204, 150, 138, 123, 101, 74, 45, 31, 7],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Fifth Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number5', data);
+Plotly.newPlot('number5', data, layout);
 
 var data = [
     {
@@ -66,9 +116,19 @@ var data = [
           121, 146, 159, 172, 172, 193, 228, 230, 251, 262, 269, 260, 280, 255, 280, 235, 193, 151, 107],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Sixth Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number6', data);
+Plotly.newPlot('number6', data, layout);
 
 var data = [
     {
@@ -78,6 +138,16 @@ var data = [
           53, 64, 60, 77, 94, 119, 149, 160, 212, 230, 268, 302, 367, 415, 485, 560, 631],
       type: 'bar'
     }
-  ];
+];
+
+var layout = {
+    title: 'Seventh Number',
+    xaxis: {
+        title: 'Number',
+    },
+    yaxis: {
+        title: '# of Occurrences',
+    }
+}
   
-  Plotly.newPlot('number7', data);
+Plotly.newPlot('number7', data, layout);
